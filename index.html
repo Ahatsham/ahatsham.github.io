@@ -4,52 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahatsham Hayat - Home</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .profile-img {
-            width: 100%;
-            max-width: 250px;
-            border-radius: 8px;
-        }
-        .highlight-box {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            gap: 15px;
-        }
-        nav ul li {
-            display: inline;
-        }
-        nav ul li a {
-            text-decoration: none;
-            font-weight: bold;
-            color: #0d6efd;
-        }
+        body { background-color: #f8f9fa; }
+        .profile-img { width: 100%; max-width: 250px; border-radius: 8px; }
+        nav ul { list-style: none; padding: 0; display: flex; gap: 15px; }
+        nav ul li a { text-decoration: none; font-weight: bold; color: #0d6efd; }
         .news-box {
             background: white;
             padding: 15px;
             border-radius: 8px;
             margin-bottom: 20px;
             box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
-            height: 300px; /* Fixed height to show a few lines */
-            overflow-y: auto; /* Enables vertical scrolling */
+            height: 300px;
+            overflow-y: auto;
         }
     </style>
 </head>
 <body>
 
-<!-- Navigation -->
 <nav class="bg-white border-bottom p-3">
     <div class="container">
         <ul class="mb-0">
@@ -61,57 +34,80 @@
     </div>
 </nav>
 
-<!-- Main Container -->
 <div class="container mt-5">
 
-    <!-- Top Section -->
     <div class="row align-items-center">
-        <!-- Profile Image -->
         <div class="col-md-4 text-center">
             <img src="ahatsham.jpeg" alt="Ahatsham Hayat" class="profile-img mb-3">
         </div>
-        <!-- Intro -->
         <div class="col-md-8">
             <h1>Ahatsham Hayat</h1>
             <p>
-                I am a Ph.D. student in Computer Engineering with a passion for advancing research in artificial intelligence and machine learning. My work focuses on developing large language models to better understand and predict human behavior using longitudinal data. Combining strong technical expertise with a dedication to innovative problem-solving, I aim to contribute meaningful solutions in AI-driven data analysis.
+                I am a Ph.D. student in Computer Engineering with a passion for advancing research in artificial intelligence and machine learning. My work focuses on developing large language models to better understand and predict human behavior using longitudinal data.
             </p>
             <p>
-                Beyond research, I am committed to sharing knowledge and fostering collaboration within the community. I enjoy exploring the intersection of technology and human experience, always striving to push the boundaries of what intelligent systems can achieve. You can reach me at 
-                <a href="mailto:aahatsham2@huskers.unl.edu" target="_blank" rel="noopener noreferrer">aahatsham2@huskers.unl.edu</a> or view my publications on 
-                <a href="http://scholar.google.com/citations?user=P-MrocsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>.
+                You can reach me at
+                <a href="mailto:aahatsham2@huskers.unl.edu">aahatsham2@huskers.unl.edu</a> or view my work on
+                <a href="http://scholar.google.com/citations?user=P-MrocsAAAAJ&hl=en" target="_blank">Google Scholar</a>.
             </p>
         </div>
     </div>
 
     <hr class="my-4">
 
-    <!-- Two Column Section with Combined News -->
     <div class="row">
-        <!-- Left: Research Focus -->
         <div class="col-md-8">
             <h2>Research Focus</h2>
             <p>
-                My research centers on leveraging advanced language models and multimodal machine learning techniques to analyze longitudinal experiential data. Specifically, I work on developing large language models to predict behavioral and emotional engagement, science identity, and confidence levels over time. By integrating temporal patterns and multimodal inputs, my work aims to improve the accuracy and interpretability of AI-driven forecasting models in educational and human-centered contexts.
-            </p>
-            <p>
-                Additionally, I investigate robust methods for handling missing data, domain adaptation, and cross-distribution evaluation to ensure that models remain reliable across diverse populations and changing conditions. Ultimately, my goal is to build AI systems that provide actionable insights and support personalized learning and development.
+                My research centers on large language models and multimodal learning for longitudinal experiential data,
+                with a focus on forecasting engagement, behavior, and confidence over time.
             </p>
         </div>
-        <!-- Right: Highlights and News (Single Scrollable Instance) -->
+
+        <!-- UPDATED NEWS SECTION -->
         <div class="col-md-4">
             <div class="news-box">
                 <h3>Highlights and News</h3>
                 <ul>
-                    <li>27 Oct 2025: Our edited book <b><i>Industry 5.0: Emerging Paradigms for Business, Technology, and Society</i></b> has been published.</li>
-                    <li>08 Aug 2025: Our paper <a href="https://2025.emnlp.org/" target="_blank" rel="noopener noreferrer">ConText-LE: Cross-Distribution Generalization for Longitudinal Experiential Data via Narrative-Based LLM Representations</a> has been accepted at the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025).</li>
-                    <li>09 Jun 2025: Our paper <a href="https://www.sciencedirect.com/science/article/pii/S2772375525003338" target="_blank" rel="noopener noreferrer">Comparative analysis and evaluation of YOLO generations for banana bunch detection</a> is accepted in Smart Agricultural Technology.</li>
-                    <li>28-29 May 2025: Organized and delivered key presentations at a two-day AI workshop, <a href="https://newsroom.unl.edu/announce/coeupdates/18842/101692" target="_blank" rel="noopener noreferrer">Engineering AI 3.0: From Pattern Matching to Intelligent Reasoning</a>, for the College of Engineering faculty at the University of Nebraska-Lincoln. Day 1 focused on Vision, Foundation, & Realization, while Day 2 provided Hands-On Experience.</li>
-                    <li>25 May 2025: Our paper on <a href="https://conll.org/" target="_blank" rel="noopener noreferrer">Modeling behavioral engagement from qualitative longitudinal data via a three-tier LLM framework</a> has been accepted for presentation at the 29th Conference on Computational Natural Language Learning (CoNLL 2025).</li>
-                    <li>17 Apr 2025: Awarded the Dean’s Fellowship for the 2025-2026 academic year!</li>
-                    <li>07 Mar 2025: Our paper on an approach to utilizing large language models for forecasting student engagement in STEM education has been accepted at the 2025 ASEE (American Society for Engineering Education) Annual Conference.</li>
-                    <li>29 Nov 2024: Our paper on <a href="https://aclanthology.org/2025.coling-main.380/" target="_blank" rel="noopener noreferrer">A Context-Aware Approach for Enhancing Data Imputation with Pre-trained Language Models</a> has been accepted for presentation at the 31st International Conference on Computational Linguistics (COLING 2025).</li>
-                    <li>09 Sep 2024: Our paper on <a href="https://www.icmla-conference.org/icmla24/index.php" target="_blank" rel="noopener noreferrer">Leveraging Language Models for Analyzing Experiential Time-Series Data in Education</a> has been accepted at the 2024 International Conference on Machine Learning and Applications (ICMLA).</li>
+                    <li>
+                        03 Jan 2026: Our paper
+                        <em>From Numbers to Narratives: Efficient Language Model-Based Detection for Safety-Critical Minority Classes</em>
+                        has been accepted at
+                        <a href="https://2026.eacl.org/" target="_blank">EACL Findings 2026</a>.
+                    </li>
+
+                    <li>
+                        02 Jan 2026: Our paper
+                        <a href="https://www.worldscientific.com/doi/abs/10.1142/S2424862225300030" target="_blank">
+                            Cloud computing applications for Industry 4.0: A literature-based study
+                        </a>
+                        has been accepted in the
+                        <em>Journal of Industrial Integration and Management</em>.
+                    </li>
+
+                    <li>
+                        27 Oct 2025: Our edited book
+                        <a href="https://books.google.co.in/books?hl=en&lr=&id=5O2VEQAAQBAJ" target="_blank">
+                            <b><i>Industry 5.0: Emerging Paradigms for Business, Technology, and Society</i></b>
+                        </a>
+                        has been published by CRC Press.
+                    </li>
+
+                    <li>
+                        08 Aug 2025: Our paper
+                        <a href="https://2025.emnlp.org/" target="_blank">
+                            ConText-LE: Cross-Distribution Generalization for Longitudinal Experiential Data via Narrative-Based LLM Representations
+                        </a>
+                        has been accepted at EMNLP 2025 (Findings).
+                    </li>
+
+                    <li>
+                        25 May 2025: Our paper on a three-tier LLM framework for engagement forecasting has been accepted at CoNLL 2025.
+                    </li>
+
+                    <li>
+                        17 Apr 2025: Awarded the Dean’s Fellowship for the 2025–2026 academic year.
+                    </li>
                 </ul>
             </div>
         </div>
@@ -119,23 +115,18 @@
 
     <hr class="my-4">
 
-    <!-- Lab Section with Shared News Column -->
     <div class="row">
-        <!-- Left: Human-First AI Lab (HAL 2.0) -->
         <div class="col-md-8">
             <h2>Human-First AI Lab (HAL 2.0)</h2>
             <p>
-                I work as a Graduate Research Assistant in the Human-First Artificial Intelligence Lab (HAL 2.0), led by <a href="https://mrhasan-ai.github.io/index.html" target="_blank" rel="noopener noreferrer">Dr. M.R. Hasan</a>, where we are dedicated to pioneering AI technologies that prioritize human values, ethical integrity, and societal benefit. Drawing inspiration from the iconic 1968 film <a href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey" target="_blank" rel="noopener noreferrer">2001: A Space Odyssey</a>, our lab’s name pays homage to HAL 9000—the film’s AI that serves as a cautionary tale of misalignment—while HAL 2.0 represents a new vision: developing AI that seamlessly aligns with human goals and enhances real-world impact. From transforming education and healthcare to fostering inclusive, trustworthy innovations, our research is shaping AI as a force for social good.
+                I work as a Graduate Research Assistant in the Human-First Artificial Intelligence Lab (HAL 2.0),
+                led by <a href="https://mrhasan-ai.github.io/index.html" target="_blank">Dr. M.R. Hasan</a>.
             </p>
         </div>
-        <!-- Right: Reuses the same news-box from the previous row -->
-        <!-- No new news-box needed here -->
     </div>
 
 </div>
 
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
