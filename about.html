@@ -57,9 +57,24 @@
                         <div>
                             <h2>Following the trail uphill.</h2>
                             <p>Outside of research, I am drawn to long hikes, mountain landscapes, and the patient work of reaching a summit. These experiences keep me grounded and make room for a different kind of perspective.</p>
-                            <div class="about-grid">
-                                <img src="Ahatsham_24.jpg" alt="Ahatsham Hayat on a mountain summit">
-                                <img src="Image-1.jpg" alt="Mountain landscape viewed during a hike">
+                            <div class="trail-carousel" data-slider aria-roledescription="carousel" aria-label="Mountain and hiking photographs">
+                                <div class="trail-viewport">
+                                    <div class="trail-track">
+                                        <figure class="trail-slide"><img src="Ahatsham_24.jpg" alt="Ahatsham Hayat on a mountain summit"></figure>
+                                        <figure class="trail-slide"><img src="Image-1.jpg" alt="Mountain landscape viewed during a hike"></figure>
+                                        <figure class="trail-slide"><img src="10.jpg" alt="Mountain slope with a snow patch"></figure>
+                                        <figure class="trail-slide"><img src="Image-2.jpg" alt="Mountain landscape during a hike"></figure>
+                                        <figure class="trail-slide"><img src="Ahatsham_8.jpg" alt="Hikers framed by mountain scenery"></figure>
+                                        <figure class="trail-slide"><img src="Image-3.JPG" alt="Hikers in a green field overlooking a town"></figure>
+                                    </div>
+                                </div>
+                                <div class="trail-controls">
+                                    <p class="trail-count" aria-live="polite"><span data-slide-current>01</span> / 06</p>
+                                    <div>
+                                        <button class="trail-button" type="button" data-slider-previous aria-label="Previous photograph">&#8592;</button>
+                                        <button class="trail-button" type="button" data-slider-next aria-label="Next photograph">&#8594;</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -68,5 +83,6 @@
             </main>
         </div>
     </div>
+    <script src="about-slider.js"></script>
 </body>
 </html>
