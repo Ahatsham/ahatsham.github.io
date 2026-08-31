@@ -2,14 +2,14 @@ const carousel = document.querySelector('[data-slider]');
 
 if (carousel) {
     const track = carousel.querySelector('.trail-track');
-    const slides = Array.from(carousel.querSelectorAll('.trail-slide'));
+    const slides = Array.from(carousel.querySelectorAll('.trail-slide'));
     const current = carousel.querySelector('[data-slide-current]');
     let activeIndex = 0;
     let touchStart = 0;
 
     const showSlide = (index) => {
         activeIndex = (index + slides.length) % slides.length;
-        track.style.transform = `translateX(-${activeIndex * 100}%)`;
+        track.style.transform = \`translateX(-\${activeIndex * 100}%)\`;
         current.textContent = String(activeIndex + 1).padStart(2, '0');
     };
 
