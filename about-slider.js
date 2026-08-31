@@ -9,7 +9,7 @@ if (carousel) {
 
     const showSlide = (index) => {
         activeIndex = (index + slides.length) % slides.length;
-        track.style.transform = \`translateX(-\${activeIndex * 100}%)\`;
+        track.style.transform = 'translateX(-' + (activeIndex * 100) + '%)';
         current.textContent = String(activeIndex + 1).padStart(2, '0');
     };
 
