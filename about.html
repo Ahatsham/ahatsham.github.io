@@ -3,124 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahatsham Hayat - About</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .highlight-box {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            gap: 15px;
-        }
-        nav ul li {
-            display: inline;
-        }
-        nav ul li a {
-            text-decoration: none;
-            font-weight: bold;
-            color: #0d6efd;
-        }
-        .brain-img {
-            width: 100%;
-            max-width: 300px;
-            border-radius: 8px;
-        }
-        .gallery-img {
-            width: 100%;
-            border-radius: 8px;
-            margin-bottom: 15px;
-        }
-    </style>
+    <meta name="description" content="Academic journey and outdoor pursuits of Ahatsham Hayat.">
+    <title>Beyond Research | Ahatsham Hayat</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<!-- Navigation -->
-<nav class="bg-white border-bottom p-3">
-    <div class="container">
-        <ul class="mb-0">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="about.html">About Me</a></li>
-        </ul>
-    </div>
-</nav>
-
-<!-- Main Container -->
-<div class="container mt-5">
-
-    <!-- About Section -->
-    <div class="row">
-        <div class="col-md-12">
-            <h2>About Me</h2>
-            <div class="row">
-                <!-- Academic Journey Part 1 -->
-                <div class="col-md-8">
-                    <div class="highlight-box">
-                        <p>
-                            From a family where education & research are the cornerstones of life, with my father dedicating his career to teaching at a polytechnic in India and my elder brother inspiring minds as a lecturer at the University of Brighton in the UK, my path in research felt almost predestined. It all started with a Bachelor's degree in Computer Science and Engineering from UTU, igniting a spark that led me to pursue a Master's in CSE from VNIT in India. Eager to share knowledge, I began as an Assistant Professor in the Computer Science Department at Parul University, then at the University of Petroleum and Energy Studies, both in India, where I discovered the joy of mentoring young talents.
-                        </p>
+    <div class="site-shell">
+        <aside class="profile-panel">
+            <span class="monogram" aria-hidden="true">AH</span>
+            <img src="ahatsham.jpeg" alt="Portrait of Ahatsham Hayat" class="profile-photo">
+            <h1>Ahatsham<br>Hayat</h1>
+            <p class="role">Postdoctoral Research Fellow<br><a href="https://kovachevalab.bwh.harvard.edu/" target="_blank" rel="noopener noreferrer">Kovacheva Lab</a><br>Brigham and Women's Hospital<br>Harvard Medical School</p>
+            <div class="profile-links">
+                <a href="https://scholar.google.com/citations?user=P-MrocsAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                <a href="https://github.com/Ahatsham" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/ahatsham-hayat-a344bb59" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:afnu@bwh.harvard.edu">Email</a>
+            </div>
+            <p class="panel-note">Boston, Massachusetts</p>
+        </aside>
+        <div class="content-panel">
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="index.html">About</a>
+                <a href="research.html">Research</a>
+                <a href="publications.html">Publications</a>
+                <a href="about.html" aria-current="page">Beyond research</a>
+            </nav>
+            <main class="site-main">
+                <header class="page-title">
+                    <p class="eyebrow">Beyond research</p>
+                    <h1>Curiosity is a practice, in and out of the lab.</h1>
+                    <p>My path has crossed teaching, applied research, and interdisciplinary AI work in India, Portugal, and the United States.</p>
+                </header>
+                <section class="section">
+                    <div class="section-grid">
+                        <p class="section-kicker">01 / Journey</p>
+                        <div>
+                            <h2>Teaching, research, and a wider view of intelligence.</h2>
+                            <p>I began my career teaching computer science in India before moving into research roles in Portugal and the United States. That experience shaped the questions I care about now: how can intelligent systems help people make better decisions, and how can we design them with enough humility to be useful?</p>
+                            <ul class="detail-list">
+                                <li><strong>PhD, Computer Engineering</strong> &mdash; University of Nebraska-Lincoln, 2023-2026</li>
+                                <li><strong>Researcher</strong> &mdash; LARSYS / Madeira Interactive Technologies Institute, Portugal</li>
+                                <li><strong>Former faculty member</strong> &mdash; University of Petroleum and Energy Studies and Parul University, India</li>
+                            </ul>
+                            <p class="pull-quote">The best research stays close to the people whose lives it hopes to improve.</p>
+                        </div>
                     </div>
-                </div>
-                <!-- Brain Image (Middle) -->
-                <div class="col-md-4 text-center">
-                    <img src="brain_1.jpg" alt="Illustration of the human brain" class="brain-img mb-3">
-                </div>
-                <!-- Academic Journey Part 2 -->
-                <div class="col-md-8">
-                    <div class="highlight-box">
-                        <p>
-                            Yearning for deeper exploration, I ventured to Portugal as a researcher at LARSYS, delving into innovative projects. Today, as a Graduate Research Assistant in the ECE department at the University of Nebraska-Lincoln (UNL), my drive stems from a profound curiosity: to decode the intricacies of the human brain and engineer systems that emulate its remarkable capabilities, bridging the gap between biology and technology.
-                        </p>
+                </section>
+                <section class="section">
+                    <div class="section-grid">
+                        <p class="section-kicker">02 / Outside</p>
+                        <div>
+                            <h2>Following the trail uphill.</h2>
+                            <p>Outside of research, I am drawn to long hikes, mountain landscapes, and the patient work of reaching a summit. These experiences keep me grounded and make room for a different kind of perspective.</p>
+                            <div class="about-grid">
+                                <img src="Ahatsham_24.jpg" alt="Ahatsham Hayat on a mountain summit">
+                                <img src="Image-1.jpg" alt="Mountain landscape viewed during a hike">
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <!-- Personal Interests -->
-            <div class="highlight-box">
-                <p>
-                    Yet, life isn't confined to labs and lectures; my true passion ignites in the untamed wilderness, where the call of the mountains echoes my deepest dreams. Aspiring to one day stand atop Mount Everest, conquering its formidable heights, I thrive on outdoor adventures, though hiking and climbing hold a special place in my soul. When the office doors close, the trails open, pulling me into nature's embrace across continents—from the rugged terrains of India and Europe to the vast expanses of North America. But it's Nepal that captures my heart eternally, with unforgettable vistas from Everest and Annapurna base camps, where the sheer majesty of snow-capped giants and fluttering prayer flags remind me of life's boundless possibilities. Here in the USA, I've triumphantly summited 8 of Colorado's 58 majestic 14ers, each ascent a step closer to my goals, fueling my spirit for the long, exhilarating journey ahead.
-                </p>
-            </div>
-            <!-- Image Gallery -->
-            <h3>My Adventures</h3>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="Image-1.jpg" alt="Hiker overlooking ocean and town from a cliff" class="gallery-img">
-                </div>
-                <div class="col-md-4">
-                    <img src="10.jpg" alt="Mountain slope with grass, rocks, and snow patch" class="gallery-img">
-                </div>
-                <div class="col-md-4">
-                    <img src="Ahatsham_24.jpg" alt="Person holding sign at Mt. Democrat summit" class="gallery-img">
-                </div>
-                <div class="col-md-4">
-                    <img src="Image-3.JPG" alt="Hikers in green field overlooking a town" class="gallery-img">
-                </div>
-                <div class="col-md-4">
-                    <img src="Ahatsham_8.jpg" alt="Silhouette of hikers against a snowy mountain with prayer flags" class="gallery-img">
-                </div>
-                <div class="col-md-4">
-                    <img src="Image-2.jpg" alt="Silhouette of hikers against a snowy mountain with prayer flags" class="gallery-img">
-                </div>
-            </div>
+                </section>
+                <footer class="site-footer">Ahatsham Hayat &middot; Research portfolio</footer>
+            </main>
         </div>
     </div>
-
-</div>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
